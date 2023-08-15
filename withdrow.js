@@ -15,7 +15,7 @@ document.getElementById('withdrow-btn').addEventListener('click',function(){
     const totalBalance = document.getElementById('balance-total') ;
     const newBalanceString = totalBalance.innerText ;
     const newAmountBalance = parseFloat(newBalanceString) ;
-
+ 
     const totalNewBalanceAmount = newAmountBalance - newWithdrow ;
     totalBalance.innerText = totalNewBalanceAmount
 
